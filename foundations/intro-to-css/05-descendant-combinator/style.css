@@ -1,1 +1,33 @@
 /* Add CSS Styling */
+
+/* descendant class selectors */
+.container .text {
+font-size: 20px;
+text-align: center;
+background-color: yellow;
+color: red;
+}
+
+/* descendant type selectors */
+/* div p{
+font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+} */
+
+/* descendant class/type selectors */
+/* .container p{
+    font-size: 20px;
+text-align: center;
+background-color: yellow;
+color: red;
+} */
+
+/* descendant class/type selectors */
+/* div .text{
+    font-size: 20px;
+text-align: center;
+background-color: yellow;
+color: red;
+} */
