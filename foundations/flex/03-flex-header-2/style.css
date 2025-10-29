@@ -9,14 +9,40 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+  padding: 10px;
+}
+
+.to-right,
+.to-left {
+  display: flex;
+}
+
+.to-left {
+  margin-right: auto;
+  gap: 20px;
+}
+
+.to-right {
+  align-items: center;
+  gap: 20px;
+}
+
+
+ul {
+  gap: 20px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
